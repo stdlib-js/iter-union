@@ -20,7 +20,7 @@ limitations under the License.
 
 # iterUnion
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which returns the union of two or more [iterators][mdn-iterator-protocol].
 
@@ -160,8 +160,8 @@ while ( true ) {
 
 ## See Also
 
--   [`@stdlib/iter/intersection`][@stdlib/iter/intersection]: create an iterator which returns the intersection of two or more iterators.
--   [`@stdlib/iter/unique`][@stdlib/iter/unique]: create an iterator which returns unique values.
+-   <span class="package-name">[`@stdlib/iter/intersection`][@stdlib/iter/intersection]</span><span class="delimiter">: </span><span class="description">create an iterator which returns the intersection of two or more iterators.</span>
+-   <span class="package-name">[`@stdlib/iter/unique`][@stdlib/iter/unique]</span><span class="delimiter">: </span><span class="description">create an iterator which returns unique values.</span>
 
 </section>
 
@@ -212,8 +212,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/iter-union/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/iter-union?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/iter-union.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/iter-union/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
