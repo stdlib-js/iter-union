@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterUnion from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@deno/mod.js';
+import iterUnion from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@v0.2.1-deno/mod.js';
 ```
 
 #### iterUnion( iter0, ...iterator )
@@ -117,7 +117,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@deno/mod.js';
-import iterUnion from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@deno/mod.js';
+import iterUnion from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@v0.2.1-deno/mod.js';
 
 // Create seeded iterators which can generate 1000 pseudorandom numbers:
 var rand1 = discreteUniform( 1, 10, {
