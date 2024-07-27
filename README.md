@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-iterUnion = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@umd/browser.js' )
+iterUnion = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var iterUnion = require( 'path/to/vendor/umd/iter-union/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -144,7 +144,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-union@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
